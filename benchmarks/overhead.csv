@@ -1,3 +1,3 @@
-method,scope,total_time_seconds,peak_gpu_memory_mb,peak_rss_mb,notes
-moscot-rank-500,7 adjacent stage pairs,30135.118,10644,33049.789,reference implementation
-SparseST-FGW,7 adjacent stage pairs,1085.332,1658,8338.660,accuracy evaluation in progress
+method,scope,total_time_seconds,peak_gpu_memory_mb,peak_rss_mb,mean_accuracy,source_weighted_accuracy,notes
+moscot-rank-500,7 adjacent stage pairs,30135.118,10644,33049.789,0.409055,0.445199,reference implementation
+SparseST-FGW,7 adjacent stage pairs,1085.332,1658,8338.660,0.532490,0.592596,dedicated resource run
