@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+runs/
+data/raw/
+data/processed/
+data/*.h5ad
+data/*.json
+weights/
+results/
+results_*/
+*.log
+*.pt
+*.npz
+*.pyc

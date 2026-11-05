@@ -1,0 +1,18 @@
+{
+  "dataset_id": "mosta_embryo_all_stage",
+  "raw_h5ad": "../../data/raw/Mouse_embryo_all_stage.h5ad",
+  "processed_h5ad": "../../data/processed/mosta_preprocessed.h5ad",
+  "evaluation_h5ad": "../../data/processed/mosta_evaluation.h5ad",
+  "count_layer": "count",
+  "expression_is_raw_counts": true,
+  "time_key": "timepoint",
+  "annotation_key": "annotation",
+  "spatial_key": "spatial",
+  "spot_id_key": "spot_id",
+  "stage_order": ["E9.5", "E10.5", "E11.5", "E12.5", "E13.5", "E14.5", "E15.5", "E16.5"],
+  "hvg_count": 2000,
+  "hvg_cells_per_stage": 1000,
+  "pca_components": 30,
+  "library_size": 10000.0,
+  "preprocessing_batch_size": 4096
+}
